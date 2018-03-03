@@ -56,11 +56,6 @@ h2
 	}
 }
 
-.Name
-{
-	text-align: center;
-}
-
 .Copyright
 {
 	margin-top: 5px;
@@ -70,6 +65,12 @@ h2
 	animation-timing-function: linear;
 	display: inline-block;
 	animation-iteration-count: infinite;
+}
+
+.Name
+{
+	display: block;
+	text-align: center;
 }
 
 .Exemple
