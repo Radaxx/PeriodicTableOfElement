@@ -16,7 +16,7 @@ body
 	width: 100%;
 	height: 100%;
     margin: auto;
-    background-image: linear-gradient(to right, #96E5BC, #FDB1BE, #F7CDF7, #E2EBEC, #96E5BC, #FDB1BE, #BDF5FD);
+    background-image: linear-gradient(to right, #96E5BC, #FDB1BE, #FFFAD0, #F7CDF7, #E2EBEC, #96E5BC, #FFFAD0, #BDF5FD);
     font-family: Verdana;
 }
 
@@ -28,7 +28,7 @@ h1
     right: 8%;
     color: black;
     font-size: 1.5vw;
-    text-decoration: underline;
+    text-decration: underline;
 }
 
 @media screen and (max-width: 1750px)
@@ -197,4 +197,6 @@ h1
 	z-index: 1;
 	opacity: 1;
 	animation: transformanim 1s;
+	transition-property: opacity;
+	transition-duration: 2.5s;
 }
