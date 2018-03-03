@@ -1,0 +1,200 @@
+@keyframes transformanim
+{
+    0%
+    {
+        transform: rotate(90deg);
+    }
+
+    100% 
+    {
+        transform: rotate(360deg);
+    }
+}
+
+body
+{
+	width: 100%;
+	height: 100%;
+    margin: auto;
+    background-image: linear-gradient(to right, #96E5BC, #FDB1BE, #F7CDF7, #E2EBEC, #96E5BC, #FDB1BE, #BDF5FD);
+    font-family: Verdana;
+}
+
+h1
+{
+	opacity: 0.65;
+	text-align: center;
+    position: relative;
+    right: 8%;
+    color: black;
+    font-size: 1.5vw;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1750px)
+{	.Exemple
+	
+{
+		display: none;
+	}
+}
+
+.Exemple
+{
+	position: relative;
+    left: 28%;
+    z-index: 1;
+    top: 105px;
+    height: 1px;
+    width: 1%;
+    size: 1vw;
+}
+
+#Tableau
+{
+	width: 100%;
+	position: relative;
+}
+
+.line1, .line2, .line3, .line4, .line5, .line6, .line7, .line8, .line9, .line10
+{
+	display: flex;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.EmptyB, .EmptyBr
+{
+	width: 5%;
+	border: thin;
+	border-style: solid;
+	padding-top: 2px;
+	padding-bottom: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+	margin-right: 1px;
+	margin-left: 1px;
+	margin-bottom: 1px;
+}
+
+.cell, .cell_bis
+{
+	width: 5%;
+	border: thin;
+	border-style: solid;
+	border-color: rgba(0, 0, 0, 0);
+	padding-top: 2px;
+	padding-bottom: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+	margin-right: 1px;
+	margin-left: 1px;
+	margin-bottom: 1px;
+}
+
+.EmptyB, .EmptyBr, .Hydrogen, .Helium, .Lithium, .Beryllium, .Bore, .Carbone, .Azote, .Oxygene, .Fluor, .Neon, .Sodium, .Magnesium, 
+.Aluminium, .Sillicium, .Phosphore, .Soufre, .Chlore, .Argon, .Potassium, .Calcium, .Scandium, .Titane, .Vanadium,
+.Chrome, .Manganese, .Fer, .Cobalt, .Nickel, .Cuivre, .Zinc, .Galium, .Germanium, .Arsenic, .Selenium, .Brome, .Krypton,
+.Rubidium, .Strontium, .Yttrium, .Zirconium, .Niobium, .Molybdene, .Technetium, .Ruthenium, .Rhodium, .Palladium,
+.Argent, .Cadmium, .Indium, .Etain, .Antimoine, .Tellure, .Iode, .Xenon, .Cesium, .Baryum, .Hafnium, .Tantale, .Tungstene,
+.Rhenium, .Osmium, .Iridium, .Platine, .Or, .Mercure, .Thallium, .Plomb, .Bismuth, .Polonium, .Astate, .Radon,
+.Francium, .Radium, .Rutherfordium, .Dubnium, .Seaborgium, .Bohrium, .Hassium, .Meitnerium, .Darmstadtium, .Roentgenium,
+.Copernicium, .Ununtrium, .Ununquadium, .Ununpentium, .Ununhexium, .Ununseptium, .Ununoctium, .Lanthane, .Cerium, .Praseodyme,
+.Neodyme, .Promethium, .Samarium, .Europium, .Gadolinium, .Terbium, .Dyprosium, .Holmium, .Erbium, .Thulium, .Ytterbium, .Lutecium,
+.Actinium, .Thorium, .Proctactinium, .Uranium, .Neptunium, .Plutonium, .Americium, .Curium, .Berkelium, .Californium, .Einsteinium,
+.Fermium, .Mendelevium, .Nobelium, .Lawrencium
+{
+	opacity: 0.65;
+	box-shadow: 0px 0px 4px white;
+	width: 5%;
+	border: thin;
+	border-style: solid;
+	padding-top: 2px;
+	padding-bottom: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+	margin-right: 1px;
+	margin-left: 1px;
+	margin-bottom: 1px;
+	font-size: 0.5vw;
+}
+
+.line8 img
+{
+	width: 5%;
+	height: 5%;
+}
+
+.Weight
+{
+	float: right;
+}
+
+.EmptyBr, .Actinium, .Thorium, .Proctactinium, .Uranium, .Neptunium, .Plutonium, .Americium, .Curium, .Berkelium, .Californium, .Einsteinium, .Fermium, .Mendelevium, .Nobelium, .Lawrencium
+{
+	background-color: #E7B59C;
+}
+
+.EmptyB, .Lanthane, .Cerium, .Praseodyme, .Neodyme, .Promethium, .Samarium, .Europium, .Gadolinium, .Terbium, .Dyprosium, .Holmium, .Erbium, .Thulium, .Ytterbium, .Lutecium
+{
+	background-color: #ADCBFF;
+}
+
+.Hydrogen, .Bore, .Carbone, .Azote, .Oxygene, .Sillicium, .Phosphore, .Soufre, .Arsenic, .Selenium, .Tellure
+
+{
+	background-color: #96E5BC;
+}
+
+.Lithium, .Sodium, .Potassium, .Rubidium, .Cesium, .Francium
+{
+	background-color: #FDB1BE;
+}
+
+.Beryllium, .Magnesium, .Calcium, .Strontium, .Baryum, .Radium
+{
+	background-color: #F6DABF;
+}
+
+.Fluor, .Chlore, .Brome, .Iode, .Astate, .Ununseptium
+{
+	background-color: #FFFAD0;
+}
+
+.Helium, .Neon, .Argon, .Krypton, .Xenon, .Radon, .Ununoctium
+{
+	background-color: #BDF5FD;
+}
+
+.Scandium, .Titane, .Vanadium, .Chrome, .Manganese, .Fer, .Cobalt, .Nickel, .Cuivre, .Zinc, .Cadmium, .Argent, .Palladium, .Rhodium, .Ruthenium, .Technetium, .Molybdene, .Niobium, .Zirconium, .Yttrium, .Hafnium, .Tantale, .Tungstene, .Rhenium, .Osmium, .Iridium, .Platine, .Or, .Mercure, .Rutherfordium, .Dubnium, .Seaborgium, .Bohrium, .Hassium, .Meitnerium, .Darmstadtium, .Roentgenium, .Copernicium
+{
+	background-color: #F7CDF7;
+}
+
+.Aluminium, .Galium, .Germanium, .Indium, .Etain, .Antimoine, .Thallium, .Plomb, .Bismuth, .Polonium, .Ununtrium, .Ununquadium, .Ununpentium, .Ununhexium
+{
+	background-color: #E2EBEC;
+}
+
+.Hydrogen:hover, .Helium:hover, .Lithium:hover, .Beryllium:hover, .Bore:hover, .Carbone:hover, .Azote:hover, .Oxygene:hover, .Fluor:hover,
+.Neon:hover, .Sodium:hover, .Magnesium:hover, .Aluminium:hover, .Sillicium:hover, .Phosphore:hover, .Soufre:hover, .Chlore:hover,
+.Argon:hover, .Potassium:hover, .Calcium:hover, .Scandium:hover, .Titane:hover, .Vanadium:hover, .Chrome:hover, .Manganese:hover,
+.Fer:hover, .Cobalt:hover, .Nickel:hover, .Cuivre:hover, .Zinc:hover, .Galium:hover, .Germanium:hover, .Arsenic:hover, .Selenium:hover,
+.Brome:hover, .Krypton:hover, .Rubidium:hover, .Strontium:hover, .Yttrium:hover, .Zirconium:hover, .Niobium:hover, .Molybdene:hover,
+.Technetium:hover, .Ruthenium:hover, .Rhodium:hover, .Palladium:hover, .Argent:hover, .Cadmium:hover, .Indium:hover, .Etain:hover,
+.Antimoine:hover, .Tellure:hover, .Iode:hover, .Xenon:hover, .Cesium:hover, .Baryum:hover, .Hafnium:hover, .Tantale:hover, .Tungstene:hover,
+.Rhenium:hover, .Osmium:hover, .Iridium:hover, .Platine:hover, .Or:hover, .Mercure:hover, .Thallium:hover, .Plomb:hover, .Bismuth:hover,
+.Polonium:hover, .Astate:hover, .Radon:hover, .Francium:hover, .Radium:hover, .Rutherfordium:hover, .Dubnium:hover, .Seaborgium:hover,
+.Bohrium:hover, .Hassium:hover, .Meitnerium:hover, .Darmstadtium:hover, .Roentgenium:hover, .Copernicium:hover, .Ununtrium:hover,
+.Ununquadium:hover, .Ununpentium:hover, .Ununhexium:hover, .Ununseptium:hover, .Ununoctium:hover, .Lanthane:hover, .Cerium:hover,
+.Praseodyme:hover, .Neodyme:hover, .Promethium:hover, .Samarium:hover, .Europium:hover, .Gadolinium:hover, .Terbium:hover,
+.Dyprosium:hover, .Holmium:hover, .Erbium:hover, .Thulium:hover, .Ytterbium:hover, .Lutecium:hover, .Actinium:hover, .Thorium:hover,
+.Proctactinium:hover, .Uranium:hover, .Neptunium:hover, .Plutonium:hover, .Americium:hover, .Curium:hover, .Berkelium:hover,
+.Californium:hover, .Einsteinium:hover, .Fermium:hover, .Mendelevium:hover, .Nobelium:hover, .Lawrencium:hover
+{
+	border-color: white;
+	transform: scale(2, 2);
+	z-index: 1;
+	opacity: 1;
+	animation: transformanim 1s;
+}
