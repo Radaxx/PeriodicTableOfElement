@@ -11,6 +11,18 @@
     }
 }
 
+@keyframes copyanim
+{
+    0%
+    {
+        transform: translateX(-10%);
+    }
+    100%
+    {
+    	transform: translateX(110%);
+    }
+}
+
 body
 {
 	width: 100%;
@@ -41,8 +53,13 @@ h1
 
 .Copyright
 {
+	margin-top: 5px;
 	width: 100%;
-	text-align: center;
+	font-size: 0.7vw;
+	animation: copyanim 10s;
+	animation-timing-function: linear;
+	display: inline-block;
+	animation-iteration-count: infinite;
 }
 
 .Exemple
