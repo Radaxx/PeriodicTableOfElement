@@ -73,6 +73,11 @@ h1
     size: 1vw;
 }
 
+.number
+{
+	margin-left: 5px;
+}
+
 #Tableau
 {
 	width: 100%;
