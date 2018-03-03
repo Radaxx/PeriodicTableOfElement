@@ -56,6 +56,11 @@ h2
 	}
 }
 
+.Name
+{
+	text-align: center;
+}
+
 .Copyright
 {
 	margin-top: 5px;
@@ -78,7 +83,7 @@ h2
     size: 1vw;
 }
 
-.number
+.Number
 {
 	margin-left: 5px;
 }
